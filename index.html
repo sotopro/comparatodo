@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<title>ComparaTodo.Com</title>
+<meta charset="utf-8">
+<script src="assets/js/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/estilos.css">
+
+<style type="text/css"></style></head>
+
+<body>
+    <header>
+		<nav class="navbar navbar-default ">
+			<div class="container-fluid">
+				<div class="navbar-header">
+						<a class="navbar-brand" href="#">ComparaTodo.Com</a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex6-collapse">
+							<span class="sr-only">Desplegar navegación</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+				</div>
+				<div class="collapse navbar-collapse navbar-ex6-collapse">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropbtn">
+							  Préstamo<span class="caret"></span>
+							</a>
+							<ul class="dropdown-content">
+								  <li><a href="#">Hipotecario</a></li>
+								  <li><a href="#">Vehículo</a></li>
+								  <li><a href="#">Tarjeta de Crédito</a></li>
+								  <li><a href="#">Personal</a></li>
+							</ul>
+						</li>
+						<li><a href="#">¿Quiénes Somos?</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropbtn">
+							  Panamá<span class="caret"></span>
+							</a>
+							<ul class="dropdown-content">
+								  <li><a href="#">Venezuela</a></li>
+								  <li><a href="#">Colombia</a></li>
+								  <li><a href="#">Puerto Rico</a></li>
+
+							</ul>
+						</li>
+						<li><a style="font-size:16px;" href="#">Ingresa <span class="glyphicon glyphicon-log-in" style="font-size:16px;"></span> </a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+    </header>
+<section class="superior-botones">
+	<div id="principal">
+		<div id="page-tittle" class="page-tittle col-xs-12 col-sm-12  col-md-12 col-lg-12">
+			<div class="row myrow">
+				<br>
+				<h2 class="title-pages">¿Estás Buscando Un Crédito?</h2>
+				<div class="container-row-1 col-xs-3 col-sm-3  col-md-3 col-lg-3">
+						<img class="imagenflecha1" src="assets/imagenes/flecha_casa.png">
+						<h3 class="sub-title">Préstamo</h3>
+						<h3 class="sub-title">Hipotecario</h3>
+						<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+					</div>
+					<div class="container-row-2 col-xs-3 col-sm-3  col-md-3 col-lg-3">
+						<img class="imagenflecha2" src="assets/imagenes/flecha_car.png" alt="a butterfly">
+						<h3 class="sub-title">Préstamo</h3>
+						<h3 class="sub-title">Vehículo</h3>
+						<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+					</div>
+					<div class="container-row-3 col-xs-3 col-sm-3  col-md-3 col-lg-3">
+						<img class="imagenflecha3" src="assets/imagenes/flecha_tarjeta.png" alt="a butterfly">
+						<h3 class="sub-title">Tarjeta</h3>
+						<h3 class="sub-title">de Crédito</h3>
+						<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+					</div>
+					<div class="container-row-4 col-xs-3 col-sm-3  col-md-3 col-lg-3">
+						<img class="imagenflecha4" src="assets/imagenes/flecha_persona.png" alt="a butterfly">
+						<h3 class="sub-title">Préstamo</h3>
+						<h3 class="sub-title">Personal</h3>
+						<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+					</div>
+				</div>
+		</div>
+	
+		<div class="parte-uno col-xs-12 col-sm-12  col-md-12 col-lg-12">
+			<div class="row">
+			</div>
+		</div>
+		<div id="parte-dos" class="parte-dos col-xs-12 col-sm-12  col-md-12 col-lg-12">
+			<div class="row">
+			</div>
+		</div>
+		
+		<div id="parte-tres" class="parte-tres col-xs-12 col-sm-12  col-md-12 col-lg-12">
+			<div class="row">
+			</div>
+		</div>
+
+		<div id="parte-cuatro" class="parte-cuatro col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row">
+				<h2 class="principal-title">Compara todas las ofertas del mercado</h2>
+				<center>
+					<div class="circle1">
+						<i class="glyphicon glyphicon-menu-down btnimg1"></i>
+					</div>
+				</center>
+			</div>
+			
+		</div>
+	</div>
+	<div id="principal2">
+		<div id="page-tittle" class="page-tittle col-xs-12 col-sm-12">
+			<div class="myrow2">
+				<br>
+				<h2 class="title-pages col-xs-12 col-sm-12">¿Estás Buscando Un Crédito?</h2>
+					<div class="row2 col-xs-6 col-sm-6">
+						<div class="imag col-xs-3">
+							<img class="imagencirculo1 " src="assets/imagenes/circulo_casa.png">
+						</div>
+						<div class="info col-xs-8">
+							<h3 class="sub-title mobile-subtitle">Préstamo Hipotecario</h3>
+							<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6">
+						<div class="imag col-xs-3">
+							<img class="imagencirculo2" src="assets/imagenes/circulo_car.png">
+						</div>
+						<div class="info col-xs-8">
+							<h3 class="sub-title mobile-subtitle">Préstamo Vehículo</h3>
+							<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6">
+						<div class="imag col-xs-3">
+							<img class="imagencirculo3" src="assets/imagenes/circulo_tarjeta.png">
+						</div>
+						<div class="info col-xs-8">
+							<h3 class="sub-title mobile-subtitle">Tarjeta de Crédito</h3>
+							<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6">
+						<div class="imag col-xs-3">
+							<img class="imagencirculo4" src="assets/imagenes/circulo_persona.png">
+						</div>
+						<div class="info col-xs-8">
+							<h3 class="sub-title mobile-subtitle">Préstamo Personal</h3>
+							<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div id="parte-cuatro" class="parte-cuatro col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row">
+				<h2 class="principal-title">Compara todas las ofertas del mercado</h2>
+				<center>
+					<div class="circle1">
+						<i class="glyphicon glyphicon-menu-down btnimg1"></i>
+					</div>
+				</center>
+			</div>
+			
+		</div>
+	</div>
+
+	
+	<div id="principal3">
+		<div id="page-tittle" class="page-tittle col-xs-12 col-sm-12">
+			<div class="myrow2">
+				<br>
+				<h2 class="title-pages col-xs-12 col-sm-12" style="top:-10px;">¿Estás Buscando Un Crédito?</h2>
+				<br>
+					<div class="row2 col-xs-12">
+						<div class="imag col-xs-3">
+							<img class="imagencirculo1 " src="assets/imagenes/circulo_casa.png">
+						</div>
+						<div class="info col-xs-8">
+							<h3 class="sub-title mobile-subtitle">Préstamo Hipotecario</h3>
+							<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<div class="imag col-xs-3">
+							<img class="imagencirculo2" src="assets/imagenes/circulo_car.png">
+						</div>
+						<div class="info col-xs-8">
+							<h3 class="sub-title mobile-subtitle">Préstamo Vehículo</h3>
+							<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<div class="imag col-xs-3">
+							<img class="imagencirculo3" src="assets/imagenes/circulo_tarjeta.png">
+						</div>
+						<div class="info col-xs-8">
+							<h3 class="sub-title mobile-subtitle">Tarjeta de Crédito</h3>
+							<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<div class="imag col-xs-3">
+							<img class="imagencirculo4" src="assets/imagenes/circulo_persona.png">
+						</div>
+						<div class="info col-xs-8">
+							<h3 class="sub-title mobile-subtitle">Préstamo Personal</h3>
+							<button type="button1" class="button1 btn btn-default mobilebutton">Compara Préstamo</button>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div id="parte-cuatro" class="parte-cuatro col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row">
+				<h2 class="principal-title" style="padding-top:12px;">Compara todas las ofertas del mercado</h2>
+				<center>
+					<div class="circle1">
+						<i class="glyphicon glyphicon-menu-down btnimg1"></i>
+					</div>
+				</center>
+			</div>
+			
+		</div>
+	</div>
+		<div class="parte-cinco col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row tres">
+				<div id="Derecha" class="content col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<center>
+					<img id="imagenTacometro" src="assets/imagenes/tacometro.png" class="img-responsive" alt="Image">
+					<h3>Optimiza el tiempo</h3>
+					</center>
+					<h4 style="text-align:justify;">Desde la comodidad de tu casa, y en solo segundos, obtén la información más actualizada de los productos que ofrece la banca Panameña y en sencillos pasos:</h4><h3>COMPARA Y COTIZA!!!.</h3>
+					
+				</div>
+				<div id="Izquierda" class="content col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<center>
+					<img id="imagenLupa" src="assets/imagenes/lupa.png" class="img-responsive" alt="Image">
+					<h3>Saca tu Cuenta y Obtén beneficios</h3>
+					</center>
+					<h4 style="text-align:justify;">Descubre la gama de beneficios que existen en la actualidad, y obtén el que más se ajusta a tu presupuesto. En pocos pasos obtendrás el mejor cálculo para ahorrar tu dinero.</h4>
+
+				</div>
+			</div>
+		</div>
+		<div class="parte-seis  col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="row cuatros">
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<center><div class="circle">
+								<i class="fa fa-home btnimg"></i>
+							</div></center>
+							<h3 style="border-bottom-style:solid;border-bottom-color:#B1D23C;margin-right:2px;">Préstamo Hipotecario</h3>
+							<h4>el mejor crédito para tu vivienda
+							Busca un Banco que te ofrezca el más atractivo producto que financie tu crédito hipotecario, Compara y elije el mejor</h4>
+							<button id="Boton" type="button" class="btn btn-default">Compara Préstamo</button>
+
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<center><div id="icon" class="circle">
+								<i id="icon" class="fa fa-car btnimg"></i>
+							</div></center>
+							<h3 style="border-bottom-style:solid;border-bottom-color:#B1D23C;">Préstamo vehículo</h3>
+							<h4>El Mejor crédito para vehículo
+							Busca el crédito de vehículo que sea más atractivo y que se ajuste a tu necesitad.
+							Compara y elije el mejor.</h4>
+							<button id="Boton" type="button" class="btn btn-default">Compara Préstamo</button>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<center><div class="circle">
+								<i class="fa fa-credit-card-alt btnimg"></i>
+							</div></center>
+							<h3 style="border-bottom-style:solid;border-bottom-color:#B1D23C;">Tarjeta de crédito</h3>
+							<h4>Busca la más atractiva tasa del mercado para obténter una Tarjeta de crédito, Compara y Elije la mejor tasa</h4>
+							<button id="Boton" type="button" class="btn btn-default">Compara Préstamo</button>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<center><div class="circle">
+								<i class="fa fa-user btnimg"></i>
+							</div></center>
+							<h3 style="border-bottom-style:solid;border-bottom-color:#B1D23C;margin-left:2px;">Préstamo Personal</h3>
+							<h4>Busca el crédito personal que necesitas para tu emprendimiento.
+							Compara y elije el mejor.</h4>
+							<button id="Boton" type="button" class="btn btn-default">Compara Préstamo</button>
+						</div>
+					</div>
+		</div>
+		<div class="parte-siete col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="row cinco">
+						<h2>Es muy facil comparar</h2>
+						<div id="Diferente1" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<img class="imagenPuntero" src="assets/imagenes/puntero.png" alt="Image">
+							<h1>1</h1><br>
+							<h3>Elige el préstamo que necesitas.</h3>
+							
+						</div>
+						<div id="Diferente3" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<img class="imagenCarpeta" src="assets/imagenes/carpeta.png" alt="Image">
+							<h1>2</h1><br>
+							<h3>Llena el formulario con los datos para comparar préstamos ofrecidos por la banca del país.</h3>
+						</div>
+						<div id="Diferente2" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<img class="imagenSelect" src="assets/imagenes/select.png" alt="Image">
+							<h1>3</h1><br>
+							<h3>Ya estás casi listo!!! Selecciona el préstamo que más se adapte a tu necesidad haz clic en solicitar.</h3>
+						</div>
+					</div>
+		</div>
+
+		<div class="parte-ocho col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row seis">
+				<div id="CuadroL" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mobilespace">
+				<div class="col-xs-4 col-sm-4">
+				<img class="imagenCaptura1" src="assets/imagenes/Captura1.png" alt="Image">
+				</div>
+					<div class="col-xs-8 col-sm-8">
+					</div>
+					<h3>Gobierno estableció porcentajes para créditos de la cartera hipotecaria</h3>
+
+					<h4>Se mantiene en 20% la proporción de la cartera bruta de créditos que deben estar destinados al sector inmobiliario</h4>
+					
+				</div>
+				<div id="CuadroM" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mobilespace">
+				<div class="col-xs-4 col-sm-4">
+				<img class="imagenCaptura2" src="assets/imagenes/Captura2.png" alt="Image">
+				</div>
+					<div class="col-xs-8 col-sm-8">
+						<h3>Tipo de cambio dual retorna a la economía venezolana</h3>
+						<h4>La nueva politica cambiaria tendrá dos nuevos sistemás de divisas: el protegido y el complementario</h4>
+					</div>	
+				</div>
+				<div id="CuadroR" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mobilespace">
+				<div class="col-xs-4 col-sm-4">
+				<img class="imagenCaptura3" src="assets/imagenes/Captura3.png" alt="Image">
+				</div>
+					<div class="col-xs-8 col-sm-8">
+						<h3>Emprendedores venezolanos crean TuRedGourmet.com</h3>
+						<h4>Para los amantes de la buena mesa y de los placeres gastronómicos nace en Venezuela una guía online</h4>
+					</div>	
+				</div>
+			</div>
+
+
+		</div>
+		<!-- Tengo que cambiar los px por porcentajes aqui y en los high del css pero no logro cuadrarlos ni el responsive vertical T_T -->
+		<div class="parte-nueve col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<img src="assets/imagenes/silueta_ciudad2.png" class="Ciudad img-responsive" alt="Image">
+			<div class="row Resto">
+			
+				<div align="left" class="R1 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<h3>Préstamos</h3>
+					<ul>
+						<li><h5>Préstamos Hipotecarios</h5></li>
+						<li><h5>Préstamos Vehículos</h5></li>
+						<li><h5>Tarjeta de Crédito</h5></li>
+						<li><h5>Préstamos Personales</h5></li>
+					</ul>
+				</div>
+				<div align="left" class="R2 col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<h3>ComparaTodo.com</h3>
+					<ul>
+						<li><h5>Contacto</h5></li>
+						<li><h5>¿Quiénes Somos?</h5></li>
+						<li><h5>Blog</h5></li>
+						
+					</ul>
+					
+				</div>
+				<div class="Redes col-xs-8 col-sm-8 col-md-3 col-lg-3">
+					<img class="Icon" src="assets/imagenes/twitter.png" alt="Image">
+					<img class="Icon" src="assets/imagenes/google+.png" alt="Image">
+					<img class="Icon" src="assets/imagenes/instagram.png" alt="Image">
+				</div>
+				
+			</div>
+		</div>	
+    </section>
+		<div class="footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="footercont">
+			<h3>Desarrollado por Totalsoftware de Venezuela</h3><h3>
+			</h3></div>
+		</div>
+
+</body></html>
