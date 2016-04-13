@@ -1,0 +1,907 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+	#principal2,#principal3{
+	display:none;
+}	
+body {
+    max-width: 1680px;
+	margin: 0 auto;
+	position: relative;
+	max-height:auto;
+	
+}
+.footer{
+	position: relative;
+	margin-top:25%;
+	width:100%;
+	height:145px;
+	background:#38a7ae;
+	opacity:0.8;
+}
+.footer h3{
+	margin-top:7%;
+	color:white;
+	text-align:center;
+}
+header{
+	z-index:2;
+}
+.container-fluid {
+    background: #B1D23C;
+	height: 100%;
+}
+.navbar {
+    margin-bottom: 0;
+
+}
+.parte-uno {
+	
+    background: #6E7F86;
+	height: 142px;
+
+	z-index:-1;
+}
+.content{
+	height: 400%;
+}
+.parte-dos {
+    background: #09554E;
+    height: 140px;
+	z-index:-1;
+}
+.parte-tres{
+    background: #0D2A35;
+    height: 43px;
+	z-index:-1;
+}
+
+.parte-cuatro{
+    background: #04886C;
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: #8D8D8D;
+}
+.superior-botones {
+    padding-top: 1px;
+    background: #0D2A35;
+}
+.page-tittle {
+    text-align: center;
+    color: #FFF;
+	background: #0D2A35;    
+    height: 176px;
+
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #DCD13F;
+	
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B1D23C;;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.container-row-1, .container-row-2, .container-row-3, .container-row-4 {
+	position: relative;
+	z-index:2;
+    margin-top: 55px;
+}
+h3.sub-title {
+    padding-bottom: 5px;
+    color: #FFFFFF;
+}
+button.btn.btn-default {
+    background: transparent;
+    color: #FFFFFF;
+	bottom: 0;
+    padding: 8px;
+}
+button.btn.btn-default:hover {
+    background-color: #212121;
+    -webkit-transition: color 0.2s ease,border-color 0.2s ease,background-color 0.2s ease;
+    -moz-transition: color 0.2s ease,border-color 0.2s ease,background-color 0.2s ease;
+    -o-transition: color 0.2s ease,border-color 0.2s ease,background-color 0.2s ease;
+    transition: color 0.2s ease,border-color 0.2s ease,background-color 0.2s ease;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2.principal-title {
+    color: #FFF;
+    text-align: center;
+    padding-top: 25px;
+}
+h3.sub-title {
+    padding-bottom: 5px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.row_cent{
+	height:400px;
+}
+#Derecha{
+    background-color: #69B7D6;
+    text-align: center;
+    color: #FFF;
+	z-index:-1;
+    height: 430px;
+}
+
+#Izquierda{
+    background-color: #50A0A9;
+    text-align: center;
+    color: #FFF;
+	z-index:-1;
+    height: 430px;
+
+}
+
+
+.parte-siete{
+   
+    background-color: #0D2A35;
+    text-align: center;
+    color: #FFF
+	
+}
+
+.imagenPuntero,.imagenSelect,.imagenCarpeta{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#Diferente1{
+    background-color: #4A5F68;
+	height: 430px;  
+	margin-bottom:0;
+	position: relative;
+}
+
+#Diferente3{
+	margin-left: 0%;
+	position: relative;
+ 	height: 430px;   
+}
+#Diferente2{
+    background-color: #4A5F68;
+	height: 430px;      
+	position: relative;
+}
+
+.circle {
+	text-align:center;
+    background: #B1D23C;
+	border-radius: 50%;
+	width: 120px;
+	height:120px;
+}
+.circle1{
+	text-align:center;
+    background: #FFFFFF;
+	border-radius: 50%;
+	z-index:1;
+	width: 70px;
+	height:70px;
+	box-shadow: 2px 2px 1px #888888;
+}
+.btnimg1{
+	font-size:3em;
+	position:center;
+	margin-top: 20%;
+}
+.btnimg{
+	color: white;
+	font-size:5em;
+	position:center;
+	margin-top: 20%;
+}
+
+
+
+
+#Boton{
+    background-color: #B1D23C;  
+    margin-bottom: 10%;
+}
+.parte-seis{
+    color: #777777;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.parte-ocho{
+    background-color: #E5E5E5; 
+    text-align: center;
+}
+
+#CuadroL,#CuadroM,#CuadroR{
+    color: #777777;
+    background-color: #FFF;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+#CuadroL{
+    display: inline-block;
+	left:-0.4%;
+    height: 430px; 
+}
+
+#CuadroM{
+    display: inline-block;
+    height: 430px; ;    
+}
+
+
+#CuadroR{
+    display: inline-block;
+	left:0.4%;
+    height: 430px;  
+ }
+
+.imagenCaptura1,.imagenCaptura2,.imagenCaptura3{
+    width: 100%;
+}
+
+.parte-nueve{
+    color: #777777;
+    position: relative;
+}
+
+.Resto{
+    text-align: center;
+    position: absolute;
+    margin-left: 51%;
+    margin-top: 44px;
+	}
+
+.Redes{
+    
+    margin-top: 190px;
+    margin-left: 10px;
+    width: 70%;
+
+}
+
+.Icon{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media screen and (max-width:457px) {
+    .navbar-brand{
+	position:relative;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+	font-size: 17px;
+    line-height: 30px;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagencirculo1,.imagencirculo2,.imagencirculo3,.imagencirculo4{
+	position: relative;
+    left: -9px;
+}
+
+
+.parte-cuatro{
+    background: #04886C;
+    height: 65px;
+    border-bottom-style: solid;
+    border-bottom-color: #8D8D8D;
+}
+.navbar-toggle{
+	margin-top: -40px;
+}
+	#principal,#principal2{
+	display:none;
+}	
+
+
+	#principal3{
+	display:inline;
+}	
+.page-tittle {
+    text-align: center;
+    color: #FFF;
+	background: #0D2A35;    
+    height: 305px;
+
+}
+button.btn.btn-default {
+    background: transparent;
+    color: #FFFFFF;
+	bottom: 0;
+    padding: 3px;
+}
+	
+.imag{
+    background: #6E7F86;
+    width: 60px;
+    margin-top: 10px;
+    top: -10px;
+    left: 1px;
+}
+
+.info{
+	background-color: #09554E;
+    left: 12px;
+    height: 50px;
+}
+	h3.sub-title {
+		font-size:20px;
+    padding-bottom: 4px;
+    color: #FFFFFF;
+	margin-top: -6px;
+
+}
+.btn{
+font-size: 15px;
+}
+.circle1{
+display:none;	
+}
+	.tres h3,.cuatros h3,.cinco h3,.seis h3{
+		font-size:15px;
+	}
+	.footer {
+    position: relative;
+    margin-top: 27.5%;
+    width: 100%;
+    height: 75px;
+    background: #38a7ae;
+    opacity: 0.8;
+}
+.footer h3 {
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+	.tres h4,.cuatros h4,.cinco h4,.seis h4{
+		font-size:13px;
+	}
+	#Derecha,#Izquierda{
+		height: 335px;
+	}
+	#CuadroL,#CuadroM,#CuadroR,#Diferente1,#Diferente2,#Diferente3{
+		height: 350px;
+	}
+	.Ciudad{    
+    display:none;
+}
+		body {
+	               max-width: 100%;
+        }
+        .parte-nueve{
+            position: relative;
+            display: block;
+        }
+  
+.R1,.R2,.Ciudad{
+	display:none;
+
+}
+
+    .Resto{
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 0px;
+	}
+	
+.Redes{
+    display:block;
+margin-top: 8%;
+	width:100%;
+
+}
+.Icon{
+    width: 50px;
+    height: 50px;
+	position: relative;
+    display: inline-block;
+}
+}
+
+@media screen and (min-width:458px) and (max-width:480px) {
+    .navbar-brand{
+	position:relative;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+	font-size: 34px;
+    line-height: 30px;
+
+}
+.imagencirculo1,.imagencirculo2,.imagencirculo3,.imagencirculo4{
+	position: relative;
+       height: 42px;
+    width: 42px;
+    left: -13px;
+    top: 7px;
+}
+.navbar-toggle{
+	margin-top: -40px;
+}
+	#principal{
+	display:none;
+}	
+	#principal2{
+	display:inline;
+}	
+.page-tittle {
+    text-align: center;
+    color: #FFF;
+	background: #0D2A35;    
+    height: 270px;
+
+}
+button.btn.btn-default {
+    background: transparent;
+    color: #FFFFFF;
+	bottom: 0;
+    padding: 3px;
+}
+	
+.imag{
+	background: #6E7F86;
+	height: 55px;
+    margin-top: 5%;
+    width: 58px;
+    left: -10px;
+}
+
+.info{
+	background-color: #09554E;
+	    margin-top: 5%;
+    height: 55px;
+    width: 126px;
+    left: -3%;
+}
+	h3.sub-title {
+		font-size:20px;
+    padding-bottom: 4px;
+    color: #FFFFFF;
+}
+.btn{
+	font-size:17px;
+}
+		.tres h3,.cuatros h3,.cinco h3,.seis h3{
+		font-size:16px;
+	}
+	.footer {
+    position: relative;
+    margin-top: 27.5%;
+    width: 100%;
+    height: 75px;
+    background: #38a7ae;
+    opacity: 0.8;
+}
+	.tres h4,.cuatros h4,.cinco h4,.seis h4{
+		font-size:15px;
+	}
+	#Derecha,#Izquierda{
+		height: 400px;
+	}
+	#CuadroL,#CuadroM,#CuadroR,#Diferente1,#Diferente2,#Diferente3{
+		height: 350px;
+	}
+	.Ciudad{    
+    display:none;
+}
+		body {
+	               max-width: 100%;
+        }
+        .parte-nueve{
+            position: relative;
+            display: block;
+        }
+       .Resto{
+    text-align: center;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 22px;
+	}
+.R1,.R2,.Ciudad{
+	display:none;
+
+}
+.Redes{
+      margin-top: 8%;
+    width: 100%;
+    margin-left: 0%;
+
+}
+.Icon{
+    width: 50px;
+    height: 50px;
+	position: relative;
+    display: inline-block;
+}
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+	.navbar-brand{
+	position:relative;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+	font-size: 34px;
+    line-height: 30px;
+
+}
+.imagencirculo1,.imagencirculo2,.imagencirculo3,.imagencirculo4{
+	position:relative;
+	height: 54px;
+    width: 54px;
+    left: -7px;;
+}
+.navbar-toggle{
+	margin-top: -40px;
+}
+	#principal{
+	display:none;
+}	
+	#principal2{
+	display:inline;
+}	
+.page-tittle {
+    text-align: center;
+    color: #FFF;
+	background: #0D2A35;    
+    height: 270px;
+
+}
+button.btn.btn-default {
+    background: transparent;
+    color: #FFFFFF;
+	bottom: 0;
+    padding: 3px;
+}
+	
+.imag{
+	background: #6E7F86;
+	height: 55px;
+    margin-top: 5%;
+}
+
+.info{
+	background-color: #09554E;
+	margin-top: 5%;
+    height: 55px;
+    left: 2%;
+
+}
+	h3.sub-title {
+		font-size:20px;
+    padding-bottom: 4px;
+    color: #FFFFFF;
+}
+.btn{
+	font-size:17px;
+}
+		.tres h3,.cuatros h3,.cinco h3,.seis h3{
+		font-size:16px;
+	}
+	.footer {
+    position: relative;
+    margin-top: 27.5%;
+    width: 100%;
+    height: 75px;
+    background: #38a7ae;
+    opacity: 0.8;
+}
+	.tres h4,.cuatros h4,.cinco h4,.seis h4{
+		font-size:15px;
+	}
+	#Derecha,#Izquierda{
+		height: 400px;
+	}
+	#CuadroL,#CuadroM,#CuadroR,#Diferente1,#Diferente2,#Diferente3{
+		height: 350px;
+	}
+	.Ciudad{    
+    display:none;
+}
+		body {
+	               max-width: 100%;
+        }
+        .parte-nueve{
+            position: relative;
+            display: block;
+        }
+       .Resto{
+    text-align: center;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 22px;
+	}
+.R1,.R2,.Ciudad{
+	display:none;
+
+}
+
+.Redes{
+	
+    margin-top: 8%;
+    width: 100%;
+    margin-left: 0%;
+
+}
+.Icon{
+    width: 50px;
+    height: 50px;
+	position: relative;
+    display: inline-block;
+}
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+.footer h3{
+	margin-top:4%;
+	color:white;
+	text-align:center;
+}
+.imagenflecha1, .imagenflecha2, .imagenflecha3, .imagenflecha4{
+	width:150px;
+	height:220px;
+}
+	.tres h3,.cuatros h3,.cinco h3,.seis h3{
+		font-size:16px;
+	}
+	.footer {
+    position: relative;
+    margin-top: 27.5%;
+    width: 100%;
+    height: 75px;
+    background: #38a7ae;
+    opacity: 0.8;
+}
+	.tres h4,.cuatros h4,.cinco h4,.seis h4{
+		font-size:15px;
+	}
+	#Derecha,#Izquierda{
+		height: 400px;
+	}
+	#CuadroL,#CuadroM,#CuadroR,#Diferente1,#Diferente2,#Diferente3{
+		height: 350px;
+	}
+	.Ciudad{    
+    display:none;
+}
+		body {
+	               max-width: 100%;
+        }
+        .parte-nueve{
+            position: relative;
+            display: block;
+        }
+       .Resto{
+    text-align: center;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 22px;
+	}
+.R1{
+	margin-left:-51%;
+}
+.R2{
+	margin-left:19%;
+
+}
+.R1 h3 ,.R2 h3 {
+    font-size:34px;
+	width: 200px;
+}
+.R1 h5 ,.R2 h5{
+    font-size:19.5px;
+	width: 210px;
+}
+.R1 ul {
+	margin-left:20%;
+
+}
+.R2 h3{
+	margin-left: 45%;
+}
+.R2 ul {
+	margin-left:110%;
+}
+.Redes{
+    
+margin-top: 8%;
+	width:50%;
+
+}
+.Icon{
+    width: 50px;
+    height: 50px;
+	position: relative;
+    display: inline-block;
+}
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1680px) {
+	.imagenflecha1, .imagenflecha2, .imagenflecha3, .imagenflecha4{
+	width:150px;
+	height:220px;
+}
+	.Ciudad{    
+    position: absolute;
+	width: 100%;
+}
+body {
+	       width: 100%;
+}
+
+.Resto{
+    text-align: center;
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 44px;
+	}
+.R1{
+	margin-left:-25%;
+}
+.R2{
+	margin-left:22%;
+}
+.R1 h3 ,.R2 h3 {
+    font-size:30px;
+	width: 200px;
+}
+.R1 h5 ,.R2 h5{
+    font-size:18px;
+	width: 200px;
+}
+.R1 ul {
+	margin-left:20%;
+
+}
+.R2 h3{
+	margin-left: 9%;
+}
+.R2 ul {
+	margin-left:110%;
+}
+.Redes{
+    
+    margin-top: 8%;
+	margin-left: 0%;
+
+}
+.Icon{
+    width: 50px;
+    height: 50px;
+
+}
+     
+}
+
+@media screen and (min-width:1681px) and (max-width:1920px) {
+.imagenflecha1, .imagenflecha2, .imagenflecha3, .imagenflecha4{
+	width:150px;
+	height:220px;
+}
+.Resto{
+    text-align: center;
+    position: absolute;
+    margin-left: 51%;
+    margin-top: 44px;
+	}
+
+body {
+	max-width: 1680px;
+	margin: 0 auto;
+	position: relative;
+	max-height:auto;
+	
+}
+.R1, .R2{
+	margin-left:5%;
+}
+		.R1 h3 ,.R2 h3 {
+    font-size:40px;
+	width: 300px;
+}
+		.R1 h5 ,.R2 h5{
+    font-size:27px;
+	width: 350px;
+}
+.R1 ul {
+	margin-left:20%;
+
+}
+.R2 h3{
+	margin-left: 55%;
+}
+.R2 ul {
+	margin-left:110%;
+}
+.Redes{
+    
+    margin-top: 125px;
+    margin-left: 0px;
+    width: 50%;
+
+}
+.Icon{
+    width: 50px;
+    height: 50px;
+
+}
+.Ciudad{    
+    position: absolute;
+	width: 100%;
+}
+}
+h3.sub-title.mobile-subtitle {
+    font-size: 12px;
+}
+button.button1.btn.btn-default.mobilebutton {
+    font-size: 12px;
+}
