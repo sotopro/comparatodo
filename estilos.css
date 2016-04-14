@@ -417,15 +417,16 @@ display:none;
     text-align: center;
     font-size: 13px;
 }
-	.tres h4,.cuatros h4,.cinco h4,.seis h4{
-		font-size:13px;
-	}
+.tres h3, .cuatros h3, .cinco h3, .seis h3 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
 	#Derecha,#Izquierda{
 		height: 335px;
 	}
-	#CuadroL,#CuadroM,#CuadroR,#Diferente1,#Diferente2,#Diferente3{
-		height: 350px;
-	}
+	#CuadroL, #CuadroM, #CuadroR, #Diferente1, #Diferente2, #Diferente3 {
+    height: 100%;
+}
 	.Ciudad{    
     display:none;
 }
